@@ -15,7 +15,7 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 
 1. Go to the terminal and `cd` into the directory of your preference.
-2. Run `git@github.com:alphayowakarindi/tdd.git` to clone the app.
+2. Run `git clone git@github.com:alphayowakarindi/tdd.git` to clone the app.
 3. Open the project in a code editor of your choice that is configured to use Ruby.
 4. Run `ruby solver.rb` to start the app
 
