@@ -12,4 +12,10 @@ describe 'factorial method' do
     reverse_str = solver.reverse('hello')
     expect(reverse_str).to eq('olleh')
   end
+
+  it 'fizzbuzz method return fizz or buzz and fizzbuzz for a given number' do
+    solver = Solver.new
+    result = solver.fizzbuzz(5)
+    expect(result).to eq('buzz')
+  end
 end
