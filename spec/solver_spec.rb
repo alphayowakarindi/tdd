@@ -6,4 +6,10 @@ describe 'factorial method' do
     factorial = solver.factorial(5)
     expect(factorial).to eq(120)
   end
+
+  it 'reverse method returns reverse string from method' do
+    solver = Solver.new
+    reverse_str = solver.reverse('hello')
+    expect(reverse_str).to eq('olleh')
+  end
 end
