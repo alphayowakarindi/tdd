@@ -15,7 +15,7 @@ describe 'factorial method' do
 
   it 'fizzbuzz method return fizz or buzz and fizzbuzz for a given number' do
     solver = Solver.new
-    result = solver.fizzbuzz(5)
-    expect(result).to eq('buzz')
+    result = solver.fizzbuzz(15)
+    expect(result).to eq('fizzbuzz')
   end
 end
